@@ -1,5 +1,4 @@
 package Oct.ex_17102024;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Lab0030if_elseif_else {
     public static void main(String[] args){
@@ -20,5 +19,6 @@ public class Lab0030if_elseif_else {
         {
             System.out.println("Equal");
         }
+        sc.close();
     }
 }
