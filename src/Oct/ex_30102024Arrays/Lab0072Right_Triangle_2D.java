@@ -1,6 +1,6 @@
 package Oct.ex_30102024Arrays;
 import java.util.Scanner;
-public class Lab0072Right_Traingle_2D {
+public class Lab0072Right_Triangle_2D {
     public static void main(String[] args) {
         //*
         //* *
