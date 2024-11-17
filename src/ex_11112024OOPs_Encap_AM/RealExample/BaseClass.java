@@ -1,18 +1,18 @@
 package ex_11112024OOPs_Encap_AM.RealExample;
 
-public class BaseClass {
+public class BaseClass {  // 1-Baseclass will be used by everyone
 
-    private String browser;
+    private String browser; //2-Instance variable will be created, as per the encap its should be private, which will be used by gettersetter
 
-    BaseClass(){
+    BaseClass(){ //3-Default Constructor
         System.out.println("DC-BaseClass");
     }
 
-    BaseClass(String b){
+    BaseClass(String b){  //Parameteraised Constructor
         System.out.println("PC-BaseClass");
     }
 
-    public String getBrowser() {
+    public String getBrowser() { // getterSetter
         return browser;
     }
 
@@ -23,7 +23,7 @@ public class BaseClass {
             System.out.println("Not Allowed");
         }
     }
-
+  //4 - Method Overloading - Same name but different arguments
     void openBrowser(){
         System.out.println("Opening Browser");
     }
